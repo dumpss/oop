@@ -11,6 +11,7 @@ public partial class Form1 : Form
 
         private void btnReset_Click(object sender, EventArgs e)
         {
+            pnl.Invalidate();
             Point A = new Point(0, 0);
         }
 
